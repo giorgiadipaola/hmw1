@@ -1,0 +1,495 @@
+body{
+    margin:0px;
+   background-color:thistle;
+}
+
+html{
+  
+    margin: 0;
+    width: 100vw;
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0;
+  
+    font-family: 'Merriweather Sans', serif;
+    font-size: 1.1em;
+  
+    
+    height: 55px;
+
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: white;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 20%);
+}
+
+a{
+    margin: 20px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration:none;
+}
+#here{
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 30%);
+  }
+.logo{
+    font-family: 'MuseoModerno', sans-serif;
+    margin-left: 80px;
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    margin-right:80px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-right:50px;
+}
+
+.logo img{
+  height: 65px;
+   
+}
+
+
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:100%;
+    
+    z-index: 2;
+}
+
+
+a:hover{
+color:rgba(2, 174, 169, 0.641);
+transition: 0.3s;
+
+}
+
+
+
+footer {
+    display: flex;
+    
+    background-color:thistle;
+
+    height: 100px;
+   width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    align-items: flex-end;
+    
+    border-bottom:rgba(0, 0, 0, 0.4) solid 1px;
+    font-family: 'Merriweather Sans', serif;
+    color: black;
+    z-index: 1;
+}
+
+#foot-title{
+   
+    font-family: 'Ubuntu', sans-serif;
+    color:black;
+   
+}
+
+#social{
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    margin-top:5px;
+    flex-direction: row;
+   
+   }
+   
+ #social img{
+   margin: 5px;
+   height: 30px;
+   width: 30px;
+   
+   }
+
+
+   header {
+    color: white;
+    /* background-image: url("career_header.jpg"); */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+
+ #welcome{
+     display: flex;
+     align-items: flex-start;
+     flex-direction: row;
+     width:60%;
+
+ }
+
+ #box-welcome{
+    border-radius: 3px;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 50%);
+     height: 300px;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     background-color: white;
+     color:black;
+    font-size:30px;
+    font-family: 'MuseoModerno', sans-serif;
+ }
+
+
+/* ------- */
+#box-profile{
+    display: flex;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+    flex-direction: column;
+    background-color: white;
+    color:black;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+    
+    margin-top: -80ppx; 
+}
+section{
+    height: 900px;
+}
+.statistics{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    border-top: solid rgba(0, 0, 0, 0.3) 1px;
+    width: 80%;
+    padding:3px;
+
+    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.statistics div{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.username{
+    
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.user{
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url("student.png");
+    background-size: cover;
+    border: solid rgba(0, 0, 0, 0.4) 1px;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;;
+}
+
+/* -------- */
+#courses-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.course{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 360px;
+    width: 360px;
+    background-color: white;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 30%);
+    margin: 10px 40px 40px 40px;
+
+}
+.course:hover{
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 20%);
+    transition: 0.6s;
+    margin-top: -5px;
+}
+.course img{
+  height: 231px;
+  width: 100%;
+
+}
+
+.subject{
+    display: flex;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin-top:10px;
+    margin-bottom:5px;
+}
+.teacher{
+    margin:5px;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgba(2, 174, 169);
+
+}
+.schedule{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgba(0, 0, 0, 0.7);
+    font-size: 13px;
+    margin: 3px 0px 0px 5px;
+    flex-direction: row;
+}
+.schedule-date{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.sub{
+        
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-right: 7px;
+        margin-bottom: 10px;
+
+        
+}
+
+.sub span:hover{
+    color:rgba(2, 174, 169, 0.641);
+    transition:0.3s
+}
+
+
+/*------*/
+
+h1{
+    font-size: 30px;
+    margin-left:10px;
+    margin-bottom: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left:10px;
+    margin-top:5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    color:rgba(0,0,0,0.6);
+    width: 100%
+}
+#header-courses{
+    width: fit-content;
+    margin-left: 40px;
+}
+
+
+#arrow{
+    margin-top:20px;
+    margin-right: -6px;
+    margin-left:-20px;
+    height: 32px;
+    width:32px;
+}
+#sub-arrow{
+    margin-left: 3px;
+    font-size: 40px;
+}
+/* ----- */
+
+
+/* mates */
+#box-mates{
+    display: flex;
+
+flex-direction: column;
+align-items: center;
+
+width: 100%;
+
+
+}
+#mates-view{
+    display: flex;
+    border: rgba(0, 0, 0, 0.224) solid 1px;
+flex-direction: column;
+align-items: center;
+background-color: white;
+
+width: 300px;;
+margin-right: 40px;
+box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%);
+}
+.mate-profile{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: fit-content;
+    margin: 5px 0px 0px 0px;
+    border-bottom: rgba(0, 0, 0, 0.4) solid 1px;
+    width: 100%;
+    
+}
+#mates-title{
+    font-family:"Ubuntu", sans-serif;
+    color:rgba(0, 0, 0, 0.4);
+    align-items: center;
+    font-size: 30px;
+    margin:0px 0px 0px 20px;
+}
+.mate-profile img{
+    height: 30px;
+    width: 30px;
+}
+.username-mate{
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+/* -------------- */
+input[type=text]{
+   
+    text-align: center;
+    width: 95%;
+    max-width: 650px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #f4ede5;
+    color: #8d7e7e;
+    border:1px;
+    transition: border ease 0.2;
+    font-size: 18px;
+    opacity: 1;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+
+#close-query{
+    display: flex;
+    justify-content: flex-end;
+  
+    width: 100%;
+}
+#x:hover{
+    color:rgb(220, 1, 1);
+    transition: 0.3s;
+
+}
+
+ .hidden{
+     display:none;
+ }
+
+
+ iframe{
+     height:300px;
+    border-radius: 2px;
+ }
+
+ #pause-coffee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#modal-view.hidden{
+    display: none;
+}
+
+
+  
+#modal-view{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.3);
+    
+    z-index: 77;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    margin:0px;
+}
+
+
+#query{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-items: center;
+     padding:10px;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 3%;
+
+}
+
+ .no-scroll{
+     overflow: hidden;
+ }
+
+
+
+
+
+ 

@@ -1,0 +1,143 @@
+body{
+    background-color:rgb(138, 58, 134,0.9); 
+}
+section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+}
+section img{
+    height: 400px;
+    width: 400px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 630px;
+    width: 480px;
+    background-color: white;
+    border: white solid 1px;
+    border-radius: 20px;
+    align-items: center;
+  }
+    form{
+        margin-block-end: 10px;
+    }
+  p {
+    margin: 0.3em;
+  }
+   
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5pz 0 5px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+   
+}
+#submit{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+font-family: 'Ubuntu',sans-serif;
+}
+
+#signup_button{
+    width: 100%;
+    border: rgba(255, 255, 255, 0.281) solid 1px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(178, 245, 245, 0.6);
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top:15px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+#signup_button:hover{
+    background-color: rgb(134, 244, 244);
+  
+}
+
+.fields input{
+  width: 100%;
+}
+
+
+.name_surname{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+input{
+    /* background: #f4ede5; */
+   background: rgba(213, 202, 178, 0.8);
+    padding: 8px;
+    border: 2px solid white;
+    color: #3b3939;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 4px;
+    transition: border ease 0.3s;
+}
+
+div.allow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.allow input{
+    height: 16px;
+    width:16px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.allow label{
+    margin-left: 10px;
+}
+
+.login{
+    color: #8d7e7e;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+span{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.error span{
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+   opacity: 1;
+
+}
+
+.error input{
+    border-color: red;
+}
+h1{
+    margin-bottom: 10px;
+}
+p{
+    text-align: right;
+}
+#checkForm{
+    color: red;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.hidden{
+    display: none;
+}

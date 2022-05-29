@@ -1,0 +1,369 @@
+
+
+body{
+    margin:0px;
+    background-color: #f4ede5;
+}
+
+html{
+  
+    margin: 0;
+    width: 100vw;
+}
+
+nav{
+    
+    top: 0px;
+    left: 0px;
+    right: 0;
+  
+    font-family: 'Merriweather Sans', serif;
+    font-size: 1.1em;
+  
+    
+    height: 55px;
+
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: white;
+    color: white;
+    z-index: 2;
+    text-align: center;
+    box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%);
+}
+
+a{
+    margin: 20px;
+    padding: 10px 10px;
+    color: black;
+    text-decoration:none;
+}
+
+.logo{
+    font-family: 'MuseoModerno', sans-serif;
+    margin-left: 80px;
+    color:rgb(0, 0, 0);
+    font-size: 40px;
+    margin-right:80px;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-right:50px;
+}
+
+.logo img{
+  height: 65px;
+   
+}
+#rule{
+    font-size:30px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width:100%;
+    
+    z-index: 2;
+}
+
+
+a:hover{
+color:rgba(2, 174, 169, 0.641);
+transition: 0.3s;
+
+}
+
+
+section{
+    display: flex;
+    margin-top: 40px;
+    margin-left:auto;
+    margin-right: auto;
+    
+    background-color: #f4ede5;
+    height:100vh;
+    width: 55%;
+}
+
+footer {
+    display: flex;
+     background-color:#f4ede5;
+   
+
+    height: 100px;
+    width: 50vw;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top:0px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    align-items: flex-end;
+    border-bottom:rgba(0, 0, 0, 0.4) solid 1px;
+    font-family: 'Merriweather Sans', serif;
+    color: black;
+    z-index: 1;
+}
+
+#foot-title{
+  
+    font-family: 'Ubuntu', sans-serif;
+    color:black;
+   
+}
+
+#social{
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    margin-top:5px;
+    flex-direction: row;
+   
+   }
+   
+ #social img{
+   margin: 5px;
+   height: 30px;
+   width: 30px;
+   
+   }
+
+
+   header {
+    color: rgb(19, 6, 6);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+  }
+  #here{
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 30%);
+  }
+ 
+
+ #welcome{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     flex-direction: row;
+     width:60%;
+
+ }
+
+
+
+/* ---- USER----- */
+#box-profile{
+    display: flex;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+   
+  
+}
+.box_profile{
+    display: flex;
+    box-shadow: 0 5px 25px 0 rgb(0 0 0 / 20%);
+    flex-direction: column;
+    background-color: white;
+    padding: 5px;
+    width: 200px;
+    align-items: center;
+    margin-left:40px;
+}
+
+.statistics{
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+    border-top: solid rgba(0, 0, 0, 0.3) 1px;
+    width: 80%;
+    padding:3px;
+
+    font-size: 18px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.statistics div{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+.username{
+    
+    color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.user{
+    margin-left:auto;
+    margin-right: auto;
+    background-image: url("student.png");
+    background-size: cover;
+    border: solid rgba(0, 0, 0, 0.4) 1px;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;;
+}
+
+#pause-coffee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#modal-view.hidden{
+    display: none;
+}
+
+
+  
+#modal-view{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.3);
+    
+    z-index: 77;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    margin:0px;
+}
+
+
+#query{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: flex-start;
+    align-items: center;
+     padding:10px;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 3%;
+
+}
+
+ .no-scroll{
+     overflow: hidden;
+ }
+
+/* --------------------------- */
+input[type=text]{
+   
+    text-align: center;
+    width: 95%;
+    max-width: 650px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #f4ede5;
+    color: #8d7e7e;
+    border:1px;
+    transition: border ease 0.2;
+    font-size: 18px;
+    opacity: 1;
+    margin-top: 10px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+
+#close-query{
+    display: flex;
+    justify-content: flex-end;
+  
+    width: 100%;
+}
+#x:hover{
+    color:rgb(220, 1, 1);
+    transition: 0.3s;
+
+}
+
+ .hidden{
+     display:none;
+ }
+
+
+ iframe{
+     height:300px;
+    border-radius: 2px;
+ }
+
+
+ /* mates */
+#box-mates{
+    display: flex;
+    border: rgba(0, 0, 0, 0.224) solid 1px;
+flex-direction: column;
+align-items: center;
+background-color: white;
+height: fit-content;
+width: 100%;
+margin-right: 40px;
+box-shadow: 0 5px 5px 0 rgb(0 0 0 / 20%);
+}
+.mate-profile{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: fit-content;
+    margin: 5px 0px 0px 0px;
+    border-bottom: rgba(0, 0, 0, 0.4) solid 1px;
+    width: 100%;
+    
+}
+#mates-title{
+    font-family:"Ubuntu", sans-serif;
+    color:rgba(0, 0, 0, 0.9);
+    align-items: center;
+    font-size: 30px;
+    margin:0px 0px 0px 20px;
+}
+.mate-profile img{
+    height: 30px;
+    width: 30px;
+}
+.username-mate{
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#classroom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

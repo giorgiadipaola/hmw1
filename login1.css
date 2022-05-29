@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(138, 58, 134,0.9);
+    
+}
+section{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+}
+section img{
+    height: 400px;
+    width: 400px;
+}
+h1{
+    font-family: 'MuseoModerno', sans-serif;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 330px;
+    width: 300px;
+    background-color: white;
+    border: white solid 1px;
+    border-radius: 20px;
+    align-items: center;
+  }
+  
+  p {
+    margin: 0.3em;
+  }
+   
+label{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 5pz 0 5px 0;
+   
+}
+#submit{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+font-family: 'Ubuntu',sans-serif;
+}
+
+input{
+    background: rgba(213, 202, 178, 0.8);
+    padding: 8px;
+    border: 2px solid white;
+    font-family: 'Nunito Sans', sans-serif;
+    border-radius: 4px;
+    transition: border ease 0.3s;
+    height: 30px;
+    margin-top: 10px;
+}
+#login_button{
+    width: 100%;
+    border: rgba(255, 255, 255, 0.281) solid 1px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgba(178, 245, 245, 0.6);
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+
+#login_button:hover{
+ 
+    background-color:rgb(134, 244, 244);
+   
+}
+
+.field{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    color:rgba(0, 0, 0, 0.6);
+}
+
+div.remember{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 2px;
+    
+}
+.remember input{
+    width: 13px;
+    height: 13px;
+    margin:0;
+
+}
+
+.remember label{
+    margin-left: 8px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    font-size:13px;
+}
+.signup{
+    color: #8d7e7e;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 13px;
+}
+
+
+.errore{
+    color: red;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size:  13px;
+}
+
+.hidden{
+    display: none;
+}
